@@ -19,11 +19,6 @@ const userRouter = require("./routes/users.route");
 app.use("/api/courses", courseRouter);
 app.use("/api/users", userRouter);
 
-// app.all("*", (req, res) => {
-//   return res
-//     .status(404)
-//     .json({ status: httpStatusText.ERROR, message: "this resource not found" });
-// });
 
 app.use((err, req, res, next) => {
   res.status(err.statusCode || 500).json({
