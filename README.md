@@ -15,8 +15,8 @@ A secure Node.js API for course and user management with JWT authentication.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/YasserSoltan/NodeJs-courses-project.git
+cd NodeJs-courses-project
 
 # Install dependencies
 npm install
